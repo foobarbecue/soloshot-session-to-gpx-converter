@@ -39,8 +39,10 @@ The session file is a binary file. The first 4 bytes represent the ASCII encoded
 | 0x1D2201 |          43 bytes |
 | 0x082301 |          44 bytes |
 | 0xA33C02 |          69 bytes |
+| 0xA41902 |          34 bytes |
+| 0xA50902 |          18 bytes |
 
-The content of the packages `0xA00201` and `0xA60702` is unknown yet. The content of the other packages is partly figured out. The following tables show the structure of them. Byte order of numbers is big endian. Strings are ASCII encoded and zero terminated.
+The content of the packages `0xA41902`, `0xA50902`, `0xA00201` and `0xA60702` is unknown yet. The content of the other packages is partly figured out. The following tables show the structure of them. Byte order of numbers is big endian. Strings are ASCII encoded and zero terminated.
 
 <table>
     <tr>
